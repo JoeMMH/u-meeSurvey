@@ -1,0 +1,22 @@
+[build]
+  base = "umee-survey-netlify-protected"
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/gate"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/.netlify/functions/gate"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/ask"
+  to = "/.netlify/functions/ask"
+  status = 200
+  force = true
