@@ -1,9 +1,0 @@
-{
-  "name": "umee-survey-report",
-  "version": "1.0.0",
-  "private": true,
-  "description": "u-mee three-year customer survey report, with the Ask the Survey AI feature served from a standalone server function.",
-  "engines": {
-    "node": ">=18"
-  }
-}
